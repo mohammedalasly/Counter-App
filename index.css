@@ -23,10 +23,14 @@ button {
   color: white;
   font-weight: bold;
   width: 200px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: transform 0.3s;
+}
+button:hover {
+  transform: scale(1.1);
 }
 
 #increment-btn {
