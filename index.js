@@ -15,8 +15,10 @@ function decrement() {
 }
 
 function save() {
-  let countStr = count + "🍓 ";
-  saveEl.textContent += countStr;
+  if (count >= 1) {
+    let countStr = count + "🍓 ";
+    saveEl.textContent += countStr;
+  }
   countEl.textContent = 0;
   count = 0;
 }
