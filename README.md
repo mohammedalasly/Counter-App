@@ -29,5 +29,5 @@ The code defines several functions and variables:
 - `decrement()` is a function that decreases the `count` value by 1, if it is greater than 0, and updates the displayed count value in the HTML.
 - `save()` is a function that appends the current count value to the saved entries, resets the count value and updates the displayed count value in the HTML.
 - `reset()` is a function that sets the count value to 0, clears the saved entries, and updates the displayed count value in the HTML.
-
-![Strawberry Counter App](strawberry-app-screenshot.png)
+- [app.netlify.com](https://endearing-taffy-248015.netlify.app/)
+  ![Strawberry Counter App](strawberry-app-screenshot.png)
