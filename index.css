@@ -1,73 +1,67 @@
-body {
-  background-image: url("strawberry.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
-  height: 40vh;
-  font-family: "Lucida Console", "Courier New", monospace;
+@font-face {
+  font-family: TPF Rubber Ducky;
+  src: url(TPF\ Rubber\ Ducky.ttf);
 }
 
-.container {
-  max-width: 25%;
+body {
   margin: auto;
-  border: 3px;
-  border-radius: 10px;
-  margin-top: 17em;
-  padding: 40px 40px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 0px 0px 5px black;
+}
+
+#main-div {
+  background-image: url("images/rabbit-board.png");
+  background-size: cover;
+  font-weight: bold;
+  font-family: TPF Rubber Ducky;
+  text-align: center;
+  color: aliceblue;
+  width: 600px;
+  height: 900px;
+}
+
+h1 {
+  margin-top: 70%;
+
+}
+
+h2 {
+  font-size: 50px;
 }
 
 button {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border: 1px solid;
+  padding: 10px 10px;
+  margin: 5px;
   color: white;
   font-weight: bold;
+  font-size: medium;
+  font-family: TPF Rubber Ducky;
   width: 200px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: transform 0.3s;
 }
+
 button:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
 }
 
 #increment-btn {
-  background: #2c2891;
-}
-
-#decrement-btn {
-  background: #78889c;
+  background: rgb(108, 37, 37);
 }
 
 #save-btn {
-  background: #1c7947;
+  background: rgb(44, 95, 44);
 }
-
+#decrement-btn {
+  background: rgb(2, 126, 154);
+}
 #reset-btn {
-  background: #ee2e0f;
+  background: rgb(33, 49, 108);
 }
 
 #save-el {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-@media (min-width: 500px) and (max-width: 1854px) {
-  .container {
-    max-width: 22em;
-  }
-  h1 {
-    font-size: 23px;
-  }
-
-  h2 {
-    font-size: 40px;
-    opacity: 0.6;
-  }
-
-  button {
-    width: 150px;
-  }
+  font-size: large;
 }
