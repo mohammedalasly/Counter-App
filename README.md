@@ -34,5 +34,4 @@ The code defines several functions and variables:
 
 - [app.netlify.com](https://endearing-taffy-248015.netlify.app/)
 
-
 ![Counter App](images/counter-board.png)
