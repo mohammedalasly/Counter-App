@@ -22,7 +22,7 @@ function decrement() {
 // Save function to save the current count
 function save() {
   if (count > 0) {
-    let countEntry = count + " - "
+    let countEntry = `[${count}] `
     saveEl.textContent += countEntry
     countEl.textContent = 0
     count = 0
@@ -31,7 +31,5 @@ function save() {
 
 // Reset function to reset the count to 0
 function reset() {
-  count = 0
-  countEl.textContent = count
-  saveEl.textContent = "Count Previous Entries: "
+  saveEl.textContent = "Saved Entries: "
 }
