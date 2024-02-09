@@ -32,7 +32,7 @@ h2 {
 }
 
 button {
-  border: 1px solid;
+  border: none;
   padding: 10px 10px;
   margin: 5px;
   color: white;
@@ -49,17 +49,17 @@ button:hover {
 }
 
 #increment-btn {
-  background: rgb(108, 37, 37);
+  background: royalblue
+}
+#decrement-btn {
+  background: palevioletred
 }
 
 #save-btn {
-  background: rgb(44, 95, 44);
-}
-#decrement-btn {
-  background: rgb(2, 126, 154);
+  background: lightseagreen
 }
 #reset-btn {
-  background: rgb(33, 49, 108);
+  background: slateblue
 }
 
 #save-el {
